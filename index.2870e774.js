@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".modal"),n=document.querySelector(".overlay"),d=document.querySelector(".btn-open"),t=document.querySelector(".btn-close");d.addEventListener("click",(function(){e.classList.remove("hidden"),n.classList.remove("hidden")}));var c=function(){e.classList.add("hidden"),n.classList.add("hidden")};n.addEventListener("click",c),t.addEventListener("click",c),document.addEventListener("keydown",(function(n){"Escape"!==n.key||e.classList.contains("hidden")||c()}))}();
+//# sourceMappingURL=index.2870e774.js.map
