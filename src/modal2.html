@@ -6,24 +6,29 @@
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-    <p><a href="index.html">Go back</a></p>
+    
     <div class="backdrop"></div>
-    <div class="modal"><button type="button" class="modal-close-btn"><svg class="modal-close-icon" width="28" height="28">
+    <div class="modal">
+        <button type="button" class="modal-close-btn"><svg class="modal-close-icon" width="28" height="28">
                 <use href="./images/icons/icons.svg#close-icon"></use>
             </svg></button>
-            <img src="./images/tomato.png" alt="tomato" width="140" height="140">
+            
+            <div class="photo-info">
+            <img src="./images/tomato.png" alt="tomato" width="140" height="140" class="tomato-product">
             <svg class="ellipse" width="145" height="28">
                 <use href="./images/icons/icons.svg#icon-Ellipse"></use>
             </svg>
+            </div>
     
-    <div>
-        <p>ORDER SUCCESS</p>
-        <p>Thank you for shopping at Food Boutique. Your order has been received and is now being freshly prepared just for you!
-        Get ready to indulge in nourishing goodness, delivered right to your doorstep. We're thrilled to be part of your journey
-        to better health and happiness.</p>
-    </div>
+        
+            <p class="title">ORDER SUCCESS</p>
+            <p class="title-info">Thank you for shopping at Food Boutique. Your order has been received and is now being freshly prepared just for you!
+            Get ready to indulge in nourishing goodness, delivered right to your doorstep. We're thrilled to be part of your journey
+            to better health and happiness.</p>
+       
     </div>
     <script type="module" src="./index.js"></script>
 </body>
